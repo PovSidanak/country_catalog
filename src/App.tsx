@@ -130,7 +130,7 @@ function App() {
   }
 
   function popUp(cca2: string) {
-    let popup = data.filter((item) => item.cca2 === cca2)[0]
+    const popup = data.filter((item) => item.cca2 === cca2)[0]
     setSingleData(popup)
   }
 
