@@ -1,4 +1,5 @@
 {
+  "homepage": "https://povsidanak.github.io/country_catalog",
   "name": "test",
   "private": true,
   "version": "0.0.0",
@@ -7,7 +8,8 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build"
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
